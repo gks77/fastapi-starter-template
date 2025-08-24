@@ -59,7 +59,7 @@ A **production-ready FastAPI starter template** with comprehensive features for 
 
 1. **Clone the Repository**
 	```bash
-	git clone https://github.com/gks77/fast-users.git
+	git clone https://github.com/gks77/fastapi-starter-template.git
 	cd fast-users
 	```
 
