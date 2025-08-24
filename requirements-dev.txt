@@ -1,0 +1,23 @@
+# Development Dependencies
+# These are additional packages for development, testing, and code quality
+
+# Testing and Coverage
+pytest==7.4.3
+pytest-cov==6.2.1
+coverage==7.10.3
+
+# Security and Code Quality Tools
+bandit==1.8.6
+safety==3.6.0
+safety-schemas==0.0.14
+
+# Development Utilities
+rich==14.1.0
+typer==0.16.0
+
+# Additional Development Tools (optional)
+# black==23.12.1              # Code formatter
+# isort==5.13.2               # Import sorter
+# flake8==7.0.0              # Linting
+# mypy==1.8.0                # Type checking
+# pre-commit==3.6.0          # Git hooks

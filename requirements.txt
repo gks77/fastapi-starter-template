@@ -1,0 +1,60 @@
+# Core FastAPI Framework
+fastapi==0.116.1
+uvicorn[standard]==0.24.0
+
+# Database and ORM
+sqlalchemy==2.0.23
+alembic==1.13.1
+psycopg2-binary==2.9.9  # PostgreSQL adapter
+
+# Authentication and Security
+PyJWT[crypto]==2.8.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.20
+bcrypt==4.3.0
+cryptography==45.0.6
+
+# Data Validation and Settings
+pydantic==2.9.2
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# Configuration and Environment
+python-dotenv==1.0.0
+
+# Security Tools
+bandit==1.8.6
+safety==3.6.0
+safety-schemas==0.0.14
+
+# Testing Framework
+pytest==7.4.3
+pytest-cov==6.2.1
+httpx==0.25.2
+
+# Image Processing (for file uploads)
+pillow==11.3.0
+
+# Additional Dependencies
+anyio==4.10.0
+starlette==0.47.2
+click==8.2.1
+h11==0.16.0
+httptools==0.6.4
+uvloop==0.21.0
+watchfiles==1.1.0
+websockets==15.0.1
+
+# Development and Utility
+rich==14.1.0
+typer==0.16.0
+pyyaml==6.0.2
+
+# Logging and Monitoring
+elasticsearch==8.15.0
+python-json-logger==2.0.7
+structlog==23.2.0
+pythonjsonlogger==2.0.7
+loguru==0.7.2
+prometheus-client==0.21.0
+sentry-sdk[fastapi]==2.12.0
